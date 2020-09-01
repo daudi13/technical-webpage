@@ -1,0 +1,84 @@
+* {
+    /* padding: 0px;
+    margin: 0px; */
+    box-sizing: border-box;
+}
+/* removing the bullets  */
+ul{
+    list-style-type: none;
+} 
+ol{
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px 56px;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    border-top: 1px solid;
+}
+nav{
+    padding: 0px;
+    margin: 0px;
+
+}
+#navbar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(117, 89, 47, 0.8);
+}
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#navbar li {
+    position: relative;
+    border-top: 1px grey;
+}
+
+li a:hover {
+    background: gray;
+    color: white;
+}
+.title1{
+    text-align: center;
+    font-family: 'Lobster', cursive ;
+    font-size: 2rem;
+    color: white;
+}
+
+main {
+    margin-left: 20%;
+    float: right;
+    padding: 1px 16px;
+    position: absolute;
+}
+
+img {
+    width: 400px;
+}
+
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
